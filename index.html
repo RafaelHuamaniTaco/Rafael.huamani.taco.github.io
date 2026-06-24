@@ -2,10 +2,66 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Página Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Personal - Rafael Huamaní</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; padding: 20px; }
+        .container { width: 100%; max-width: 600px; text-align: center; }
+        
+        /* Rectángulo Morado */
+        .header-box { background-color: #6f42c1; color: white; padding: 30px; border-radius: 15px; margin-bottom: 30px; }
+        h1 { font-size: 40px; margin: 0; }
+        .bio-text { font-size: 16px; margin-top: 15px; line-height: 1.5; }
+        
+        /* Botones */
+        .seccion { margin-bottom: 40px; }
+        .boton { display: block; background-color: white; padding: 15px; margin: 10px 0; border: 2px solid #6f42c1; border-radius: 10px; text-decoration: none; color: #6f42c1; font-weight: bold; transition: 0.3s; }
+        .boton:hover { background-color: #6f42c1; color: white; }
+        
+        hr { border: 0; border-top: 2px solid #ccc; margin: 30px 0; }
+    </style>
 </head>
 <body>
-    <h1>Hola, soy Rafael Huamaní</h1>
-    <p>Estudiante de Ciencia de la Computación.</p>
+
+<div class="container">
+    <!-- Parte 1: Encabezado Morado -->
+    <div class="header-box">
+        <h1>Rafael Alonso Huamaní Taco</h1>
+        <p class="bio-text">
+            ¡Hola! Soy estudiante de la Universidad Católica San Pablo de la carrera de administración de empresas. 
+            Tengo certificación de programación en Solver y uso de Excel estadístico y financiero. 
+            Nivel intermedio hablado y escrito. Control de la oratoria.
+        </p>
+    </div>
+
+    <!-- Parte 2: LinkedIn -->
+    <div class="seccion">
+        <h3>Mi LinkedIn</h3>
+        <a href="añadir link" class="boton" target="_blank">Ir a mi LinkedIn →</a>
+    </div>
+
+    <!-- Parte 3: Cursos -->
+    <div class="seccion">
+        <h3>Mis Cursos</h3>
+        <a href="añadir link" class="boton">Análisis financiero →</a>
+        <a href="añadir link" class="boton">Cálculo en una variable →</a>
+        <a href="añadir link" class="boton">Comportamiento del consumidor →</a>
+        <a href="añadir link" class="boton">Comunicación →</a>
+        <a href="añadir link" class="boton">Derecho Empresarial →</a>
+        <a href="añadir link" class="boton">Economía general →</a>
+        <a href="añadir link" class="boton">Introducción a la computación →</a>
+    </div>
+
+    <hr>
+
+    <!-- Parte 4: Compañeros -->
+    <div class="seccion">
+        <h3>Links de compañeros</h3>
+        <a href="añadir link" class="boton">Compañero 1 →</a>
+        <a href="añadir link" class="boton">Compañero 2 →</a>
+        <a href="añadir link" class="boton">Compañero 3 →</a>
+    </div>
+</div>
+
 </body>
 </html>
