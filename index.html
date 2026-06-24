@@ -5,61 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ficha Personal - Rafael Huamaní</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; padding: 20px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #ffffff; display: flex; justify-content: center; padding: 20px; color: #333; }
         .container { width: 100%; max-width: 600px; text-align: center; }
         
-        /* Rectángulo Morado */
-        .header-box { background-color: #6f42c1; color: white; padding: 30px; border-radius: 15px; margin-bottom: 30px; }
-        h1 { font-size: 40px; margin: 0; }
-        .bio-text { font-size: 16px; margin-top: 15px; line-height: 1.5; }
+        h1 { font-size: 36px; margin-bottom: 10px; color: #000; }
+        .bio-text { font-size: 16px; margin-bottom: 30px; line-height: 1.6; color: #555; }
         
-        /* Botones */
-        .seccion { margin-bottom: 40px; }
-        .boton { display: block; background-color: white; padding: 15px; margin: 10px 0; border: 2px solid #6f42c1; border-radius: 10px; text-decoration: none; color: #6f42c1; font-weight: bold; transition: 0.3s; }
-        .boton:hover { background-color: #6f42c1; color: white; }
+        /* Botones estilo normal */
+        .seccion { margin: 30px 0; }
+        .boton { display: block; background-color: #f8f9fa; padding: 15px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: #333; font-weight: 500; transition: 0.3s; }
+        .boton:hover { background-color: #eee; border-color: #bbb; }
         
-        hr { border: 0; border-top: 2px solid #ccc; margin: 30px 0; }
+        /* Estilo especial: Rectángulo simple */
+        .boton-rectangulo { display: block; padding: 15px; margin: 8px 0; border: 1px solid #ddd; text-decoration: none; color: #333; }
+        
+        hr { border: 0; border-top: 1px solid #ccc; margin: 30px 0; }
+        h3 { color: #444; margin-bottom: 20px; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <!-- Parte 1: Encabezado Morado -->
-    <div class="header-box">
-        <h1>Rafael Alonso Huamaní Taco</h1>
-        <p class="bio-text">
-            ¡Hola! Soy estudiante de la Universidad Católica San Pablo de la carrera de administración de empresas. 
-            Tengo certificación de programación en Solver y uso de Excel estadístico y financiero. 
-            Nivel intermedio hablado y escrito. Control de la oratoria.
-        </p>
-    </div>
+    <h1>Rafael Alonso Huamaní Taco</h1>
+    <p class="bio-text">
+        ¡Hola! Soy estudiante de la Universidad Católica San Pablo de la carrera de administración de empresas. 
+        Tengo certificación de programación en Solver y uso de Excel estadístico y financiero. 
+        Nivel intermedio hablado y escrito. Control de la oratoria.
+    </p>
 
-    <!-- Parte 2: LinkedIn -->
-    <div class="seccion">
-        <h3>Mi LinkedIn</h3>
-        <a href="añadir link" class="boton" target="_blank">Ir a mi LinkedIn →</a>
-    </div>
+    <hr>
 
-    <!-- Parte 3: Cursos -->
     <div class="seccion">
-        <h3>Mis Cursos</h3>
-        <a href="añadir link" class="boton">Análisis financiero →</a>
-        <a href="añadir link" class="boton">Cálculo en una variable →</a>
-        <a href="añadir link" class="boton">Comportamiento del consumidor →</a>
-        <a href="añadir link" class="boton">Comunicación →</a>
-        <a href="añadir link" class="boton">Derecho Empresarial →</a>
-        <a href="añadir link" class="boton">Economía general →</a>
-        <a href="añadir link" class="boton">Introducción a la computación →</a>
+        <h3>Contacto</h3>
+        <a href="añadir link" class="boton" target="_blank">Mi LinkedIn →</a>
     </div>
 
     <hr>
 
-    <!-- Parte 4: Compañeros -->
+    <div class="seccion">
+        <h3>Cursos</h3>
+        <a href="https://www.linkedin.com/in/mar%C3%ADa-bel%C3%A9n-bocchio-linares-96846035/" class="boton">Análisis financiero →</a>
+        <a href="https://www.linkedin.com/in/maribel-marianela-8453a61a7/" class="boton">Cálculo en una variable →</a>
+        <a href="https://www.linkedin.com/in/fabiola-postigo-99996b3b/" class="boton">Comportamiento del consumidor →</a>
+        
+        
+        <a href="añadir link" class="boton-rectangulo">Comunicación →</a>
+        <a href="añadir link" class="boton-rectangulo">Derecho Empresarial →</a>
+        
+        <a href="https://www.linkedin.com/in/jhony-vel%C3%A1squez-delgado-112b8019/" class="boton">Economía general →</a>
+        <a href="https://www.linkedin.com/in/ecuadrosv/" class="boton">Introducción a la computación →</a>
+    </div>
+
+    <hr>
+
     <div class="seccion">
         <h3>Links de compañeros</h3>
-        <a href="añadir link" class="boton">Compañero 1 →</a>
-        <a href="añadir link" class="boton">Compañero 2 →</a>
-        <a href="añadir link" class="boton">Compañero 3 →</a>
+        <a href="https://w4nd4r1.github.io/Ariana-Yasmin-Delgado-Arce/" class="boton">Compañero 1 →</a>
+        <a href="https://michaelcadena-lp.github.io/" class="boton">Compañero 2 →</a>
+        <a href="https://fabrizioflv.github.io/fabrizio-web/" class="boton">Compañero 3 →</a>
     </div>
 </div>
 
